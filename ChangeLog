@@ -1,4 +1,7 @@
 2021-11-14 Jason Pyeron <jpyeron@pdinc.us>
+	* Add .gitignore files (closes: #61)
+
+2021-11-14 Jason Pyeron <jpyeron@pdinc.us>
 	* Add missing config.h include (closes: #104)
 
 2021-11-07 Hannes von Haugwitz <hannes@vonhaugwitz.com>
