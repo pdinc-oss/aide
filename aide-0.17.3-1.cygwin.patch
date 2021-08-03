@@ -1,0 +1,12 @@
+diff --git a/include/util.h b/include/util.h
+index aaff780..d3472fa 100644
+--- a/orig/include/util.h
++++ b/patched/include/util.h
+@@ -21,6 +21,7 @@
+ 
+ #ifndef _UTIL_H_INCLUDED
+ #define _UTIL_H_INCLUDED
++#include "config.h"
+ #include <string.h>
+ #include <stdbool.h>
+ #include <sys/types.h>

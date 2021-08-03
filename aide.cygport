@@ -1,0 +1,36 @@
+NAME=aide
+VERSION=0.17.3
+RELEASE=1
+
+SUMMARY="Intrusion detection environment"
+
+DESCRIPTION="AIDE (Advanced Intrusion Detection Environment) is a file integrity checker and intrusion detection program."
+
+CATEGORY="Admin Security System"
+REQUIRES=""
+REQUIRES+=" cygwin"
+REQUIRES+=" libmhash2"
+REQUIRES+=" libpcre1"
+REQUIRES+=" zlib0"
+
+BUILD_REQUIRES=""
+BUILD_REQUIRES+=" bison"
+BUILD_REQUIRES+=" cygwin-devel" #-lm
+BUILD_REQUIRES+=" gcc-core"
+BUILD_REQUIRES+=" libmhash-devel" #-lmhash
+BUILD_REQUIRES+=" libpcre-devel" #-lpcre
+BUILD_REQUIRES+=" make"
+BUILD_REQUIRES+=" zlib-devel" #-lz
+
+HOMEPAGE="https://aide.github.io/"
+SRC_URI="
+  https://github.com/aide/aide/releases/download/v${PV}/aide-${PV}.tar.gz
+  https://github.com/aide/aide/releases/download/v${PV}/aide-${PV}.tar.gz.asc
+"
+
+PATCH_URI="
+"
+
+# todo, but I do not think static builds will be supportable here
+CYGCONF_ARGS="--disable-static"
+
