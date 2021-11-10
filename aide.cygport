@@ -17,6 +17,7 @@ BUILD_REQUIRES=""
 BUILD_REQUIRES+=" bison"
 BUILD_REQUIRES+=" cygwin-devel" #-lm
 BUILD_REQUIRES+=" gcc-core"
+BUILD_REQUIRES+=" flex" #AIDE requires GNU flex
 BUILD_REQUIRES+=" libmhash-devel" #-lmhash
 BUILD_REQUIRES+=" libpcre-devel" #-lpcre
 BUILD_REQUIRES+=" make"
