@@ -7,11 +7,7 @@ SUMMARY="Intrusion detection environment"
 DESCRIPTION="AIDE (Advanced Intrusion Detection Environment) is a file integrity checker and intrusion detection program."
 
 CATEGORY="Admin Security System"
-REQUIRES=""
-REQUIRES+=" cygwin"
-REQUIRES+=" libmhash2"
-REQUIRES+=" libpcre1"
-REQUIRES+=" zlib0"
+REQUIRES="" # let the build determine -- cygwin libmhash2 libpcre1 zlib0
 
 BUILD_REQUIRES=""
 BUILD_REQUIRES+=" bison"
