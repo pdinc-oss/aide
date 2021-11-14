@@ -26,6 +26,7 @@ SRC_URI="
 "
 
 PATCH_URI="
+  bug-104.patch
 "
 
 # todo, but I do not think static builds will be supportable here
